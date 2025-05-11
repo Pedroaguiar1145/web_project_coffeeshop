@@ -142,7 +142,6 @@
   background-color: #0a2850;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   color: #ffffff;
   flex-direction: column;
 }
@@ -205,7 +204,108 @@
   flex-direction: row;
 }
 
-li {
-  margin: 0;
-  padding: 0;
+.reservation {
+  display: flex;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.reservation__title {
+  margin: 0 auto 80px;
+  font-family: "inter", Arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 100px;
+}
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+  width: 100vh;
+}
+
+.form__label {
+  margin-bottom: 8px;
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label-term {
+  margin: 0px;
+}
+
+.form__input {
+  border-radius: 4px;
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  height: 60px;
+  margin: 0px 0px 32px 0px;
+}
+
+.form__input-mod {
+}
+.form__input::placeholder {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.form__button {
+  border-radius: 4px;
+  opacity: 100%;
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  background: #2f80ed;
+  color: #ffffff;
+  margin: 0px 0px 32px 0px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.form__checkbox-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.form__checkbox-input:checked {
+  appearance: none;
+  background: transparent;
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
