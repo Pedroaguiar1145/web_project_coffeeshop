@@ -37,6 +37,11 @@
 
 .footer__social-heading {
   margin: 0px 0px 20px;
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list {
@@ -46,6 +51,11 @@
   margin: 0;
   flex-direction: column;
   row-gap: 16px;
+  font-family: "Inter", Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list-item {
@@ -68,4 +78,13 @@
 
 .footer__copyright {
   margin-top: 108px;
+  font-family: "Inter", Arial;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  font-size: 16px;
+
+  line-height: 20px;
 }
