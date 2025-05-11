@@ -233,7 +233,6 @@
   margin: 0px 0px 100px;
 }
 .form__fieldset {
-  display: flex;
   flex-direction: column;
   max-width: 385px;
   width: 100vh;
@@ -248,11 +247,8 @@
   line-height: 20px;
 }
 
-.form__label-term {
-  margin: 0px;
-}
-
 .form__input {
+  box-sizing: border-box;
   border-radius: 4px;
   font-family: "Inter", Arial;
   font-style: normal;
@@ -261,14 +257,9 @@
   line-height: 30px;
   height: 60px;
   margin: 0px 0px 32px 0px;
-}
-
-.form__input-mod {
-}
-.form__input::placeholder {
-  position: absolute;
-  left: 20px;
-  top: 15px;
+  align-content: center;
+  padding: 15px 0px 0px 20px;
+  width: 100%;
 }
 
 .form__button {
@@ -283,6 +274,7 @@
   background: #2f80ed;
   color: #ffffff;
   margin: 0px 0px 32px 0px;
+  padding: 0px;
 }
 
 .form__button:hover {
